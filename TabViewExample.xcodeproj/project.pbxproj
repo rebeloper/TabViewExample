@@ -13,6 +13,10 @@
 		C93FD60527E37EB3007879C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FD5F327E37EB2007879C0 /* ContentView.swift */; };
 		C93FD60627E37EB3007879C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93FD5F427E37EB3007879C0 /* Assets.xcassets */; };
 		C93FD60727E37EB3007879C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93FD5F427E37EB3007879C0 /* Assets.xcassets */; };
+		C93FD61127E37F64007879C0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FD61027E37F64007879C0 /* RootView.swift */; };
+		C93FD61227E37F64007879C0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FD61027E37F64007879C0 /* RootView.swift */; };
+		C93FD61427E381AE007879C0 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FD61327E381AE007879C0 /* Tabs.swift */; };
+		C93FD61527E381AE007879C0 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FD61327E381AE007879C0 /* Tabs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		C93FD5F927E37EB3007879C0 /* TabViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93FD5FF27E37EB3007879C0 /* TabViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93FD60127E37EB3007879C0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C93FD61027E37F64007879C0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C93FD61327E381AE007879C0 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			children = (
 				C93FD5F227E37EB2007879C0 /* TabViewExampleApp.swift */,
 				C93FD5F327E37EB2007879C0 /* ContentView.swift */,
+				C93FD61027E37F64007879C0 /* RootView.swift */,
+				C93FD61327E381AE007879C0 /* Tabs.swift */,
 				C93FD5F427E37EB3007879C0 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -178,6 +186,8 @@
 			files = (
 				C93FD60427E37EB3007879C0 /* ContentView.swift in Sources */,
 				C93FD60227E37EB3007879C0 /* TabViewExampleApp.swift in Sources */,
+				C93FD61127E37F64007879C0 /* RootView.swift in Sources */,
+				C93FD61427E381AE007879C0 /* Tabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +197,8 @@
 			files = (
 				C93FD60527E37EB3007879C0 /* ContentView.swift in Sources */,
 				C93FD60327E37EB3007879C0 /* TabViewExampleApp.swift in Sources */,
+				C93FD61227E37F64007879C0 /* RootView.swift in Sources */,
+				C93FD61527E381AE007879C0 /* Tabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
